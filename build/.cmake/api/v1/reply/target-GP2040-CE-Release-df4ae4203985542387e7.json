@@ -1,0 +1,5723 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "GP2040-CE_0.7.5_PicoFightingBoard.elf"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"add_link_options",
+			"target_link_libraries",
+			"pico_define_boot_stage2",
+			"add_dependencies",
+			"find_package",
+			"pico_add_uf2_output",
+			"pico_add_extra_outputs",
+			"pico_generate_pio_header",
+			"check_and_add_pico_pio_usb_support",
+			"include",
+			"add_compile_options",
+			"target_compile_definitions",
+			"pico_set_program_name",
+			"pico_set_program_version",
+			"add_compile_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"lib/ADS1219/CMakeLists.txt",
+			"lib/rndis/CMakeLists.txt",
+			"/Users/lyan/pico/pico-sdk/src/rp2_common/boot_stage2/CMakeLists.txt",
+			"/Users/lyan/pico/pico-sdk/tools/FindELF2UF2.cmake",
+			"/Users/lyan/pico/pico-sdk/tools/CMakeLists.txt",
+			"/Users/lyan/pico/pico-sdk/src/rp2_common.cmake",
+			"/Users/lyan/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.cmake",
+			"/Users/lyan/pico/pico-sdk/lib/tinyusb/hw/bsp/family_support.cmake",
+			"/Users/lyan/pico/pico-sdk/src/rp2_common/tinyusb/CMakeLists.txt",
+			"/Users/lyan/pico/pico-sdk/src/common/pico_binary_info/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 127,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 114,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 174,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2,
+				"parent" : 4
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 10,
+				"parent" : 6
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 101,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 77,
+				"parent" : 9
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 216,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 6,
+				"line" : 47,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 64,
+				"parent" : 12
+			},
+			{
+				"file" : 4,
+				"parent" : 13
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 43,
+				"parent" : 14
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 75,
+				"parent" : 9
+			},
+			{
+				"file" : 9
+			},
+			{
+				"command" : 10,
+				"file" : 9,
+				"line" : 24,
+				"parent" : 17
+			},
+			{
+				"file" : 8,
+				"parent" : 18
+			},
+			{
+				"command" : 10,
+				"file" : 8,
+				"line" : 134,
+				"parent" : 19
+			},
+			{
+				"file" : 7,
+				"parent" : 20
+			},
+			{
+				"command" : 9,
+				"file" : 7,
+				"line" : 240,
+				"parent" : 21
+			},
+			{
+				"command" : 8,
+				"file" : 7,
+				"line" : 231,
+				"parent" : 22
+			},
+			{
+				"command" : 4,
+				"file" : 5,
+				"line" : 42,
+				"parent" : 23
+			},
+			{
+				"command" : 8,
+				"file" : 7,
+				"line" : 232,
+				"parent" : 22
+			},
+			{
+				"command" : 4,
+				"file" : 5,
+				"line" : 42,
+				"parent" : 25
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 100,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 113,
+				"parent" : 0
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 205,
+				"parent" : 0
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 171,
+				"parent" : 0
+			},
+			{
+				"command" : 12,
+				"file" : 10,
+				"line" : 15,
+				"parent" : 30
+			},
+			{
+				"command" : 14,
+				"file" : 0,
+				"line" : 172,
+				"parent" : 0
+			},
+			{
+				"command" : 12,
+				"file" : 10,
+				"line" : 33,
+				"parent" : 32
+			},
+			{
+				"command" : 15,
+				"file" : 0,
+				"line" : 125,
+				"parent" : 0
+			},
+			{
+				"command" : 12,
+				"file" : 6,
+				"line" : 30,
+				"parent" : 11
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 196,
+				"parent" : 0
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 211,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-mcpu=cortex-m0plus -mthumb -O3 -DNDEBUG"
+				},
+				{
+					"backtrace" : 27,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 27,
+					"fragment" : "-Wtype-limits"
+				},
+				{
+					"backtrace" : 27,
+					"fragment" : "-Wno-format"
+				},
+				{
+					"backtrace" : 27,
+					"fragment" : "-Wno-unused-function"
+				},
+				{
+					"backtrace" : 28,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 28,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fno-unwind-tables"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fno-rtti"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fno-use-cxa-atexit"
+				},
+				{
+					"fragment" : "-std=gnu++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "ARDUINOJSON_DEBUG=0"
+				},
+				{
+					"backtrace" : 29,
+					"define" : "BOARD_CONFIG_FILE_NAME=\"GP2040-CE_0.7.5_PicoFightingBoard\""
+				},
+				{
+					"backtrace" : 3,
+					"define" : "CFG_TUSB_MCU=OPT_MCU_RP2040"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "CFG_TUSB_OS=OPT_OS_PICO"
+				},
+				{
+					"backtrace" : 29,
+					"define" : "GP2040_BOARDCONFIG=\"PicoFightingBoard\""
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_BIT_OPS=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_BIT_OPS_PICO=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_BOOTSEL_VIA_DOUBLE_RESET=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_DIVIDER=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_DIVIDER_HARDWARE=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_DOUBLE=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_DOUBLE_PICO=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_FIX_RP2040_USB_DEVICE_ENUMERATION=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_FLOAT=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_FLOAT_PICO=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_INT64_OPS=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_INT64_OPS_PICO=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_MALLOC=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_MEM_OPS=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_MEM_OPS_PICO=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_MULTICORE=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_PLATFORM=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_PRINTF=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_PRINTF_PICO=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_RAND=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_RUNTIME=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_STANDARD_LINK=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_STDIO=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_STDIO_UART=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_STDLIB=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_SYNC=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_SYNC_CRITICAL_SECTION=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_SYNC_MUTEX=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_SYNC_SEM=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_TIME=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_UNIQUE_ID=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_UTIL=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_TINYUSB_DEVICE=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_TINYUSB_HOST=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "MBEDTLS_CONFIG_FILE=\"mbedtls_config.h\""
+				},
+				{
+					"backtrace" : 3,
+					"define" : "PICO_BOARD=\"pico\""
+				},
+				{
+					"backtrace" : 3,
+					"define" : "PICO_BUILD=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "PICO_CMAKE_BUILD_TYPE=\"Release\""
+				},
+				{
+					"backtrace" : 3,
+					"define" : "PICO_COPY_TO_RAM=0"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "PICO_CXX_ENABLE_EXCEPTIONS=0"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "PICO_NO_FLASH=0"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "PICO_NO_HARDWARE=0"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "PICO_ON_DEVICE=1"
+				},
+				{
+					"backtrace" : 31,
+					"define" : "PICO_PROGRAM_NAME=\"GP2040-CE\""
+				},
+				{
+					"backtrace" : 33,
+					"define" : "PICO_PROGRAM_VERSION_STRING=\"0.7.5\""
+				},
+				{
+					"backtrace" : 3,
+					"define" : "PICO_RP2040_USB_DEVICE_UFRAME_FIX=1"
+				},
+				{
+					"backtrace" : 34,
+					"define" : "PICO_STACK_SIZE=0x1000"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "PICO_TARGET_NAME=\"GP2040-CE\""
+				},
+				{
+					"backtrace" : 3,
+					"define" : "PICO_USE_BLOCKED_RAM=0"
+				},
+				{
+					"backtrace" : 29,
+					"define" : "PICO_XOSC_STARTUP_DELAY_MULTIPLIER=64"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "PIO_USB_USE_TINYUSB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "RP2040_USB_HOST_MODE=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 36,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/headers"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/headers/addons"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/headers/configs"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/headers/gamepad"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/configs/PicoFightingBoard"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/build/proto"
+				},
+				{
+					"backtrace" : 37,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox"
+				},
+				{
+					"backtrace" : 37,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/.."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_stdlib/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_gpio/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_base/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/build/generated/pico_base"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/boards/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_platform/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2040/hardware_regs/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_base/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2040/hardware_structs/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_claim/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_sync/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_irq/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_sync/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_time/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_timer/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_util/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_uart/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_resets/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_clocks/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_pll/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_vreg/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_watchdog/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_xosc/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_divider/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_runtime/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_printf/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_bit_ops/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_divider/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_double/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_float/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_malloc/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_bootrom/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_binary_info/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_stdio/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_int64_ops/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_mem_ops/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/boot_stage2/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src/common"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/hw"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/pico_pio_usb/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/build/pico-sdk/src/rp2_common/tinyusb"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_dma/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_pio/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_multicore/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/AnimationStation/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/AnimationStation/src/Effects"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/NeoPico/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/NeoPico/src/generated"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/CRC32/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/FlashPROM/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_flash/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/ADS1219/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/ADS1219/BitBang_I2C"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/BitBang_I2C/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_i2c/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_spi/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/PlayerLEDs/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_pwm/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/OneBitDisplay/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/OneBitDisplay/fonts"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/build/_deps/arduinojson-src/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/rndis"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/lib/networking"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/lwip-port/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/lwip-port/arch"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/httpd/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_adc/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/WiiExtension/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/SNESpad/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/SNESpad/pico_stdlib"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_rand/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_unique_id/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/TinyUSB_Gamepad/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/mbedtls/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/nanopb"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/build/lib/TinyUSB_Gamepad/proto"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/nanopb/."
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				83
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-mcpu=cortex-m0plus -mthumb -O3 -DNDEBUG"
+				},
+				{
+					"backtrace" : 27,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 27,
+					"fragment" : "-Wtype-limits"
+				},
+				{
+					"backtrace" : 27,
+					"fragment" : "-Wno-format"
+				},
+				{
+					"backtrace" : 27,
+					"fragment" : "-Wno-unused-function"
+				},
+				{
+					"backtrace" : 28,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 28,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"fragment" : "-std=gnu11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "ARDUINOJSON_DEBUG=0"
+				},
+				{
+					"backtrace" : 29,
+					"define" : "BOARD_CONFIG_FILE_NAME=\"GP2040-CE_0.7.5_PicoFightingBoard\""
+				},
+				{
+					"backtrace" : 3,
+					"define" : "CFG_TUSB_MCU=OPT_MCU_RP2040"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "CFG_TUSB_OS=OPT_OS_PICO"
+				},
+				{
+					"backtrace" : 29,
+					"define" : "GP2040_BOARDCONFIG=\"PicoFightingBoard\""
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_BIT_OPS=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_BIT_OPS_PICO=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_BOOTSEL_VIA_DOUBLE_RESET=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_DIVIDER=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_DIVIDER_HARDWARE=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_DOUBLE=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_DOUBLE_PICO=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_FIX_RP2040_USB_DEVICE_ENUMERATION=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_FLOAT=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_FLOAT_PICO=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_INT64_OPS=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_INT64_OPS_PICO=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_MALLOC=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_MEM_OPS=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_MEM_OPS_PICO=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_MULTICORE=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_PLATFORM=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_PRINTF=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_PRINTF_PICO=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_RAND=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_RUNTIME=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_STANDARD_LINK=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_STDIO=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_STDIO_UART=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_STDLIB=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_SYNC=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_SYNC_CRITICAL_SECTION=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_SYNC_MUTEX=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_SYNC_SEM=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_TIME=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_UNIQUE_ID=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_UTIL=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_TINYUSB_DEVICE=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_TINYUSB_HOST=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "MBEDTLS_CONFIG_FILE=\"mbedtls_config.h\""
+				},
+				{
+					"backtrace" : 3,
+					"define" : "PICO_BOARD=\"pico\""
+				},
+				{
+					"backtrace" : 3,
+					"define" : "PICO_BUILD=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "PICO_CMAKE_BUILD_TYPE=\"Release\""
+				},
+				{
+					"backtrace" : 3,
+					"define" : "PICO_COPY_TO_RAM=0"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "PICO_CXX_ENABLE_EXCEPTIONS=0"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "PICO_NO_FLASH=0"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "PICO_NO_HARDWARE=0"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "PICO_ON_DEVICE=1"
+				},
+				{
+					"backtrace" : 31,
+					"define" : "PICO_PROGRAM_NAME=\"GP2040-CE\""
+				},
+				{
+					"backtrace" : 33,
+					"define" : "PICO_PROGRAM_VERSION_STRING=\"0.7.5\""
+				},
+				{
+					"backtrace" : 3,
+					"define" : "PICO_RP2040_USB_DEVICE_UFRAME_FIX=1"
+				},
+				{
+					"backtrace" : 34,
+					"define" : "PICO_STACK_SIZE=0x1000"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "PICO_TARGET_NAME=\"GP2040-CE\""
+				},
+				{
+					"backtrace" : 3,
+					"define" : "PICO_USE_BLOCKED_RAM=0"
+				},
+				{
+					"backtrace" : 29,
+					"define" : "PICO_XOSC_STARTUP_DELAY_MULTIPLIER=64"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "PIO_USB_USE_TINYUSB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "RP2040_USB_HOST_MODE=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 36,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/headers"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/headers/addons"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/headers/configs"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/headers/gamepad"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/configs/PicoFightingBoard"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/build/proto"
+				},
+				{
+					"backtrace" : 37,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox"
+				},
+				{
+					"backtrace" : 37,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/.."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_stdlib/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_gpio/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_base/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/build/generated/pico_base"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/boards/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_platform/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2040/hardware_regs/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_base/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2040/hardware_structs/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_claim/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_sync/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_irq/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_sync/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_time/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_timer/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_util/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_uart/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_resets/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_clocks/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_pll/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_vreg/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_watchdog/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_xosc/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_divider/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_runtime/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_printf/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_bit_ops/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_divider/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_double/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_float/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_malloc/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_bootrom/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_binary_info/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_stdio/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_int64_ops/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_mem_ops/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/boot_stage2/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src/common"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/hw"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/pico_pio_usb/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/build/pico-sdk/src/rp2_common/tinyusb"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_dma/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_pio/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_multicore/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/AnimationStation/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/AnimationStation/src/Effects"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/NeoPico/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/NeoPico/src/generated"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/CRC32/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/FlashPROM/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_flash/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/ADS1219/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/ADS1219/BitBang_I2C"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/BitBang_I2C/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_i2c/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_spi/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/PlayerLEDs/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_pwm/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/OneBitDisplay/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/OneBitDisplay/fonts"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/build/_deps/arduinojson-src/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/rndis"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/lib/networking"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/lwip-port/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/lwip-port/arch"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/httpd/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_adc/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/WiiExtension/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/SNESpad/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/SNESpad/pico_stdlib"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_rand/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_unique_id/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/TinyUSB_Gamepad/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/mbedtls/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/nanopb"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/build/lib/TinyUSB_Gamepad/proto"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/nanopb/."
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				37,
+				38,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				66,
+				67,
+				69,
+				72,
+				73,
+				77,
+				78,
+				80,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206,
+				207,
+				208,
+				209,
+				210,
+				211,
+				212,
+				213,
+				214,
+				215,
+				216,
+				217,
+				218,
+				219,
+				220,
+				221,
+				222,
+				223,
+				224,
+				225,
+				226,
+				227,
+				228,
+				229,
+				230,
+				231,
+				232,
+				233,
+				234,
+				235,
+				236,
+				237,
+				238,
+				239,
+				240,
+				241,
+				242,
+				243,
+				244,
+				245,
+				246,
+				247,
+				248,
+				249,
+				250,
+				251,
+				252,
+				253,
+				254,
+				255,
+				256,
+				257,
+				258,
+				259,
+				260,
+				261,
+				262,
+				263,
+				264,
+				265,
+				266,
+				267,
+				268,
+				269,
+				270,
+				271,
+				272,
+				273,
+				274,
+				275,
+				276,
+				277,
+				278,
+				279,
+				280,
+				281,
+				282,
+				283,
+				284,
+				285,
+				286,
+				287,
+				288,
+				289,
+				290,
+				291,
+				292,
+				293,
+				294,
+				295,
+				296,
+				297,
+				298,
+				299,
+				300,
+				301,
+				302,
+				303,
+				304,
+				305,
+				306,
+				307,
+				308,
+				309,
+				310
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-mcpu=cortex-m0plus -mthumb -O3 -DNDEBUG"
+				},
+				{
+					"backtrace" : 27,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 27,
+					"fragment" : "-Wtype-limits"
+				},
+				{
+					"backtrace" : 27,
+					"fragment" : "-Wno-format"
+				},
+				{
+					"backtrace" : 27,
+					"fragment" : "-Wno-unused-function"
+				},
+				{
+					"backtrace" : 28,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 28,
+					"fragment" : "-ffunction-sections"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "ARDUINOJSON_DEBUG=0"
+				},
+				{
+					"backtrace" : 29,
+					"define" : "BOARD_CONFIG_FILE_NAME=\"GP2040-CE_0.7.5_PicoFightingBoard\""
+				},
+				{
+					"backtrace" : 3,
+					"define" : "CFG_TUSB_MCU=OPT_MCU_RP2040"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "CFG_TUSB_OS=OPT_OS_PICO"
+				},
+				{
+					"backtrace" : 29,
+					"define" : "GP2040_BOARDCONFIG=\"PicoFightingBoard\""
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_BIT_OPS=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_BIT_OPS_PICO=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_BOOTSEL_VIA_DOUBLE_RESET=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_DIVIDER=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_DIVIDER_HARDWARE=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_DOUBLE=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_DOUBLE_PICO=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_FIX_RP2040_USB_DEVICE_ENUMERATION=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_FLOAT=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_FLOAT_PICO=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_INT64_OPS=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_INT64_OPS_PICO=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_MALLOC=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_MEM_OPS=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_MEM_OPS_PICO=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_MULTICORE=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_PLATFORM=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_PRINTF=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_PRINTF_PICO=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_RAND=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_RUNTIME=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_STANDARD_LINK=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_STDIO=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_STDIO_UART=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_STDLIB=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_SYNC=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_SYNC_CRITICAL_SECTION=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_SYNC_MUTEX=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_SYNC_SEM=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_TIME=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_UNIQUE_ID=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_PICO_UTIL=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_TINYUSB_DEVICE=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LIB_TINYUSB_HOST=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "MBEDTLS_CONFIG_FILE=\"mbedtls_config.h\""
+				},
+				{
+					"backtrace" : 3,
+					"define" : "PICO_BOARD=\"pico\""
+				},
+				{
+					"backtrace" : 3,
+					"define" : "PICO_BUILD=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "PICO_CMAKE_BUILD_TYPE=\"Release\""
+				},
+				{
+					"backtrace" : 3,
+					"define" : "PICO_COPY_TO_RAM=0"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "PICO_CXX_ENABLE_EXCEPTIONS=0"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "PICO_NO_FLASH=0"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "PICO_NO_HARDWARE=0"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "PICO_ON_DEVICE=1"
+				},
+				{
+					"backtrace" : 31,
+					"define" : "PICO_PROGRAM_NAME=\"GP2040-CE\""
+				},
+				{
+					"backtrace" : 33,
+					"define" : "PICO_PROGRAM_VERSION_STRING=\"0.7.5\""
+				},
+				{
+					"backtrace" : 3,
+					"define" : "PICO_RP2040_USB_DEVICE_UFRAME_FIX=1"
+				},
+				{
+					"backtrace" : 34,
+					"define" : "PICO_STACK_SIZE=0x1000"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "PICO_TARGET_NAME=\"GP2040-CE\""
+				},
+				{
+					"backtrace" : 3,
+					"define" : "PICO_USE_BLOCKED_RAM=0"
+				},
+				{
+					"backtrace" : 29,
+					"define" : "PICO_XOSC_STARTUP_DELAY_MULTIPLIER=64"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "PIO_USB_USE_TINYUSB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "RP2040_USB_HOST_MODE=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 36,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/headers"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/headers/addons"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/headers/configs"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/headers/gamepad"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/configs/PicoFightingBoard"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/build/proto"
+				},
+				{
+					"backtrace" : 37,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox"
+				},
+				{
+					"backtrace" : 37,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/.."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_stdlib/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_gpio/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_base/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/build/generated/pico_base"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/boards/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_platform/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2040/hardware_regs/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_base/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2040/hardware_structs/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_claim/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_sync/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_irq/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_sync/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_time/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_timer/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_util/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_uart/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_resets/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_clocks/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_pll/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_vreg/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_watchdog/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_xosc/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_divider/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_runtime/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_printf/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_bit_ops/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_divider/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_double/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_float/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_malloc/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_bootrom/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_binary_info/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_stdio/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_int64_ops/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_mem_ops/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/boot_stage2/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src/common"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/hw"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/pico_pio_usb/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/build/pico-sdk/src/rp2_common/tinyusb"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_dma/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_pio/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_multicore/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/AnimationStation/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/AnimationStation/src/Effects"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/NeoPico/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/NeoPico/src/generated"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/CRC32/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/FlashPROM/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_flash/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/ADS1219/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/ADS1219/BitBang_I2C"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/BitBang_I2C/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_i2c/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_spi/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/PlayerLEDs/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_pwm/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/OneBitDisplay/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/OneBitDisplay/fonts"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/build/_deps/arduinojson-src/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/rndis"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/lib/networking"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/lwip-port/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/lwip-port/arch"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/httpd/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_adc/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/WiiExtension/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/SNESpad/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/SNESpad/pico_stdlib"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_rand/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_unique_id/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/TinyUSB_Gamepad/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/mbedtls/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/nanopb"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/build/lib/TinyUSB_Gamepad/proto"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/nanopb/."
+				}
+			],
+			"language" : "ASM",
+			"sourceIndexes" : 
+			[
+				48,
+				65,
+				68,
+				70,
+				71,
+				74,
+				75,
+				76,
+				79,
+				81,
+				82
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 15,
+			"id" : "ELF2UF2Build::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "bs2_default_padded_checksummed_asm::@bc554eaed616d198a22d"
+		},
+		{
+			"backtrace" : 24,
+			"id" : "tinyusb_pico_pio_usb_usb_tx_pio_h::@36e52159cb4e937c58c5"
+		},
+		{
+			"backtrace" : 26,
+			"id" : "tinyusb_pico_pio_usb_usb_rx_pio_h::@36e52159cb4e937c58c5"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "ADS1219::@a1478e99aad31b29b8e5"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "AnimationStation::@7b55288123b16579cede"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "BitBang_I2C::@8ce39d3dd9a6b3e3639d"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "CRC32::@ea8a1ffa172eb75b6824"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "FlashPROM::@056f1bc712557b3749e8"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "httpd::@66a540df5b9286c20480"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "lwip-port::@19096ee993ef70886882"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "nanopb::@d5c6d171ec9eb511f47e"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "NeoPico::@3e4bed19ea129e3404a4"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "OneBitDisplay::@3452c874d15faef8fa68"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "PlayerLEDs::@d622627d60ff8c992730"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "rndis::@e9d3379e4504a7ec489c"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "TinyUSB_Gamepad::@32fcef9383777ead205a"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "WiiExtension::@5a0ebba45c946d486cf6"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "SNESpad::@a5d657573a465fc787de"
+		}
+	],
+	"id" : "GP2040-CE::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-mcpu=cortex-m0plus -mthumb -O3 -DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-Wl,--gc-sections",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "--specs=nosys.specs",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=sprintf",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=snprintf",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=vsnprintf",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__clzsi2",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__clzdi2",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__ctzsi2",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__ctzdi2",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__popcountsi2",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__popcountdi2",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__clz",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__clzl",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__clzll",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_idiv",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_idivmod",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_ldivmod",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_uidiv",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_uidivmod",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_uldivmod",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_dadd",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_ddiv",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_dmul",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_drsub",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_dsub",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_cdcmpeq",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_cdrcmple",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_cdcmple",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_dcmpeq",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_dcmplt",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_dcmple",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_dcmpge",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_dcmpgt",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_dcmpun",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_i2d",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_l2d",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_ui2d",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_ul2d",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_d2iz",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_d2lz",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_d2uiz",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_d2ulz",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_d2f",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=sqrt",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=cos",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=sin",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=tan",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=atan2",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=exp",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=log",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=ldexp",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=copysign",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=trunc",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=floor",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=ceil",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=round",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=sincos",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=asin",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=acos",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=atan",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=sinh",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=cosh",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=tanh",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=asinh",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=acosh",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=atanh",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=exp2",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=log2",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=exp10",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=log10",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=pow",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=powint",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=hypot",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=cbrt",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=fmod",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=drem",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=remainder",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=remquo",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=expm1",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=log1p",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=fma",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_lmul",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_fadd",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_fdiv",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_fmul",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_frsub",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_fsub",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_cfcmpeq",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_cfrcmple",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_cfcmple",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_fcmpeq",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_fcmplt",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_fcmple",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_fcmpge",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_fcmpgt",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_fcmpun",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_i2f",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_l2f",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_ui2f",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_ul2f",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_f2iz",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_f2lz",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_f2uiz",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_f2ulz",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_f2d",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=sqrtf",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=cosf",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=sinf",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=tanf",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=atan2f",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=expf",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=logf",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=ldexpf",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=copysignf",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=truncf",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=floorf",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=ceilf",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=roundf",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=sincosf",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=asinf",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=acosf",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=atanf",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=sinhf",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=coshf",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=tanhf",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=asinhf",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=acoshf",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=atanhf",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=exp2f",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=log2f",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=exp10f",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=log10f",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=powf",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=powintf",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=hypotf",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=cbrtf",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=fmodf",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=dremf",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=remainderf",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=remquof",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=expm1f",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=log1pf",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=fmaf",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=malloc",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=calloc",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=realloc",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=free",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=memcpy",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=memset",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_memcpy",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_memset",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_memcpy4",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_memset4",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_memcpy8",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=__aeabi_memset8",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,-Map=GP2040-CE_0.7.5_PicoFightingBoard.elf.map",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--script=/Users/lyan/pico/pico-sdk/src/rp2_common/pico_standard_link/memmap_default.ld",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,-z,max-page-size=4096",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--gc-sections",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--no-warn-rwx-segments",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=printf",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=vprintf",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=puts",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=putchar",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--wrap=getchar",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "lib/AnimationStation/libAnimationStation.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "lib/CRC32/libCRC32.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "lib/FlashPROM/libFlashPROM.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "lib/ADS1219/libADS1219.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "lib/PlayerLEDs/libPlayerLEDs.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "lib/NeoPico/libNeoPico.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "lib/OneBitDisplay/libOneBitDisplay.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "lib/rndis/librndis.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "lib/WiiExtension/libWiiExtension.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "lib/SNESpad/libSNESpad.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "lib/TinyUSB_Gamepad/libTinyUSB_Gamepad.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "lib/nanopb/libnanopb.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/BitBang_I2C/libBitBang_I2C.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "lib/rndis/librndis.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "lib/httpd/libhttpd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "lib/lwip-port/liblwip-port.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "GP2040-CE",
+	"nameOnDisk" : "GP2040-CE_0.7.5_PicoFightingBoard.elf",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				66,
+				67,
+				69,
+				72,
+				73,
+				77,
+				78,
+				80,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206,
+				207,
+				208,
+				209,
+				210,
+				211,
+				212,
+				213,
+				214,
+				215,
+				216,
+				217,
+				218,
+				219,
+				220,
+				221,
+				222,
+				223,
+				224,
+				225,
+				226,
+				227,
+				228,
+				229,
+				230,
+				231,
+				232,
+				233,
+				234,
+				235,
+				236,
+				237,
+				238,
+				239,
+				240,
+				241,
+				242,
+				243,
+				244,
+				245,
+				246,
+				247,
+				248,
+				249,
+				250,
+				251,
+				252,
+				253,
+				254,
+				255,
+				256,
+				257,
+				258,
+				259,
+				260,
+				261,
+				262,
+				263,
+				264,
+				265,
+				266,
+				267,
+				268,
+				269,
+				270,
+				271,
+				272,
+				273,
+				274,
+				275,
+				276,
+				277,
+				278,
+				279,
+				280,
+				281,
+				282,
+				283,
+				284,
+				285,
+				286,
+				287,
+				288,
+				289,
+				290,
+				291,
+				292,
+				293,
+				294,
+				295,
+				296,
+				297,
+				298,
+				299,
+				300,
+				301,
+				302,
+				303,
+				304,
+				305,
+				306,
+				307,
+				308,
+				309,
+				310
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				39,
+				40,
+				41
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				48,
+				65,
+				68,
+				70,
+				71,
+				74,
+				75,
+				76,
+				79,
+				81,
+				82
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/gp2040.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/gp2040aux.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/gamepad.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/addonmanager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/configmanager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/storagemanager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/system.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/usbhostmanager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/config_legacy.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/config_utils.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/configs/webconfig.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/addons/analog.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/addons/board_led.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/addons/bootsel_button.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/addons/focus_mode.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/addons/buzzerspeaker.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/addons/dualdirectional.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/addons/extra_button.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/addons/keyboard_host.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/addons/i2canalog1219.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/addons/jslider.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/addons/i2cdisplay.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/addons/neopicoleds.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/addons/playernum.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/addons/playerleds.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/addons/ps4mode.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/addons/pspassthrough.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/addons/reverse.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/addons/turbo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/addons/slider_socd.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/addons/wiiext.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/addons/input_macro.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/addons/snes_input.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/gamepad/GamepadDebouncer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/gamepad/GamepadDescriptors.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/addons/tilt.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "build/proto/enums.pb.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "build/proto/config.pb.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/proto/enums.pb.c.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/proto/config.pb.c.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/venv/environment.txt.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_platform/platform.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 2,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_sync/sem.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_sync/lock_core.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_sync/mutex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_sync/critical_section.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_time/time.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_time/timeout_helper.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_util/datetime.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_util/pheap.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_util/queue.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 2,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_printf/printf.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 2,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 2,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_divider/divider.S",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 2,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_double/double_math.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 2,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 2,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 2,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_float/float_math.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 2,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 2,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 2,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/pico_bootsel_via_double_reset.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/hcd_rp2040.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src/host/usbh.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src/host/hub.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_host.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_host.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_host.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_host.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/hcd_pio_usb.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src/tusb.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "lib/pico_pio_usb/src/pio_usb.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "lib/pico_pio_usb/src/pio_usb_host.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "lib/pico_pio_usb/src/pio_usb_device.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "lib/pico_pio_usb/src/usb_crc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src/device/usbd.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/init.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/def.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/dns.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/ip.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/mem.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/memp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/netif.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/pbuf.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/raw.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/stats.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/sys.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/altcp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/tcp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/tcp_in.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/tcp_out.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/timeouts.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/udp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/api/api_lib.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/api/api_msg.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/api/err.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/api/if_api.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/api/netbuf.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/api/netdb.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/api/netifapi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/api/sockets.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/api/tcpip.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ethernet.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/slipif.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/zepif.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_mbedtls/pico_mbedtls.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/aes.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/aesni.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/arc4.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/aria.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/asn1parse.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/asn1write.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/base64.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/bignum.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/blowfish.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/camellia.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/ccm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/chacha20.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/chachapoly.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/cipher.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/cipher_wrap.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/constant_time.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/cmac.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/ctr_drbg.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/des.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/dhm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/ecdh.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/ecdsa.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/ecjpake.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/ecp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/ecp_curves.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/entropy.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/entropy_poll.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/error.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/gcm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/havege.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/hkdf.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/hmac_drbg.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/md.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/md2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/md4.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/md5.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/memory_buffer_alloc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/mps_reader.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/mps_trace.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/nist_kw.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/oid.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/padlock.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/pem.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/pk.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/pk_wrap.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/pkcs12.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/pkcs5.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/pkparse.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/pkwrite.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/platform.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/platform_util.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/poly1305.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/psa_crypto.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/psa_crypto_aead.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/psa_crypto_cipher.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/psa_crypto_client.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/psa_crypto_driver_wrappers.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/psa_crypto_ecp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/psa_crypto_hash.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/psa_crypto_mac.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/psa_crypto_rsa.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/psa_crypto_se.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/psa_crypto_slot_management.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/psa_crypto_storage.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/psa_its_file.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/ripemd160.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/rsa.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/rsa_internal.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/sha1.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/sha256.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/sha512.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/threading.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/timing.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/version.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/version_features.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/xtea.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/certs.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/pkcs11.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/x509.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/x509_create.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/x509_crl.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/x509_crt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/x509_csr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/x509write_crt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/x509write_csr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/debug.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/net_sockets.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/ssl_cache.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/ssl_ciphersuites.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/ssl_cli.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/ssl_cookie.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/ssl_msg.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/ssl_srv.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/ssl_ticket.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/ssl_tls.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/ssl_tls13_keys.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_rand/rand.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

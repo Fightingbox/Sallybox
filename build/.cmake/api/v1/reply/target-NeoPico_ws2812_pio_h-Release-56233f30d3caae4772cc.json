@@ -1,0 +1,114 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"pico_generate_pio_header",
+			"add_dependencies",
+			"find_package",
+			"_pico_init_pioasm"
+		],
+		"files" : 
+		[
+			"/Users/lyan/pico/pico-sdk/tools/CMakeLists.txt",
+			"lib/NeoPico/CMakeLists.txt",
+			"/Users/lyan/pico/pico-sdk/tools/FindPioasm.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 3
+			},
+			{
+				"file" : 2,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 51,
+				"parent" : 5
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 6,
+			"id" : "PioasmBuild::@36e52159cb4e937c58c5"
+		}
+	],
+	"id" : "NeoPico_ws2812_pio_h::@3e4bed19ea129e3404a4",
+	"name" : "NeoPico_ws2812_pio_h",
+	"paths" : 
+	{
+		"build" : "lib/NeoPico",
+		"source" : "lib/NeoPico"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "build/lib/NeoPico/CMakeFiles/NeoPico_ws2812_pio_h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/lib/NeoPico/CMakeFiles/NeoPico_ws2812_pio_h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "lib/NeoPico/src/generated/ws2812.pio.h.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

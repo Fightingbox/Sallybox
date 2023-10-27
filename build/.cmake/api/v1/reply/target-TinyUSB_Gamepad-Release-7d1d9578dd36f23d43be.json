@@ -1,0 +1,3612 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/TinyUSB_Gamepad/libTinyUSB_Gamepad.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_dependencies",
+			"pico_define_boot_stage2",
+			"target_link_libraries",
+			"add_compile_options",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"lib/TinyUSB_Gamepad/CMakeLists.txt",
+			"/Users/lyan/pico/pico-sdk/src/rp2_common/boot_stage2/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 101,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 75,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 100,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 113,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-mcpu=cortex-m0plus -mthumb -O3 -DNDEBUG"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wtype-limits"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wno-format"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wno-unused-function"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-fno-unwind-tables"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-fno-rtti"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-fno-use-cxa-atexit"
+				},
+				{
+					"fragment" : "-std=gnu++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "CFG_TUSB_MCU=OPT_MCU_RP2040"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "CFG_TUSB_OS=OPT_OS_PICO"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_BIT_OPS=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_BIT_OPS_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_DIVIDER=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_DIVIDER_HARDWARE=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_DOUBLE=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_DOUBLE_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_FIX_RP2040_USB_DEVICE_ENUMERATION=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_FLOAT=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_FLOAT_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_INT64_OPS=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_INT64_OPS_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_MALLOC=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_MEM_OPS=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_MEM_OPS_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_PLATFORM=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_PRINTF=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_PRINTF_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_RAND=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_RUNTIME=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_STANDARD_LINK=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_STDIO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_STDIO_UART=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_STDLIB=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_SYNC=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_SYNC_CRITICAL_SECTION=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_SYNC_MUTEX=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_SYNC_SEM=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_TIME=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_UNIQUE_ID=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_UTIL=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_TINYUSB_DEVICE=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "MBEDTLS_CONFIG_FILE=\"mbedtls_config.h\""
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_BOARD=\"pico\""
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_BUILD=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_CMAKE_BUILD_TYPE=\"Release\""
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_COPY_TO_RAM=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_CXX_ENABLE_EXCEPTIONS=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_NO_FLASH=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_NO_HARDWARE=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_ON_DEVICE=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_RP2040_USB_DEVICE_UFRAME_FIX=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_USE_BLOCKED_RAM=0"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 9,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/TinyUSB_Gamepad/src"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/headers"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/CRC32/src"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/mbedtls/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/nanopb"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/build/lib/TinyUSB_Gamepad/proto"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_stdlib/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_gpio/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_base/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/build/generated/pico_base"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/boards/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_platform/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2040/hardware_regs/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_base/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2040/hardware_structs/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_claim/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_sync/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_irq/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_sync/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_time/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_timer/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_util/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_uart/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_resets/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_clocks/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_pll/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_vreg/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_watchdog/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_xosc/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_divider/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_runtime/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_printf/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_bit_ops/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_divider/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_double/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_float/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_malloc/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_bootrom/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_binary_info/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_stdio/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_int64_ops/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_mem_ops/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/boot_stage2/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_rand/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_unique_id/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_flash/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src/common"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/hw"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/rndis"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/lib/networking"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/lwip-port/."
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/lwip-port/arch"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/httpd/."
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				50
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-mcpu=cortex-m0plus -mthumb -O3 -DNDEBUG"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wtype-limits"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wno-format"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wno-unused-function"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"fragment" : "-std=gnu11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "CFG_TUSB_MCU=OPT_MCU_RP2040"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "CFG_TUSB_OS=OPT_OS_PICO"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_BIT_OPS=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_BIT_OPS_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_DIVIDER=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_DIVIDER_HARDWARE=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_DOUBLE=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_DOUBLE_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_FIX_RP2040_USB_DEVICE_ENUMERATION=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_FLOAT=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_FLOAT_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_INT64_OPS=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_INT64_OPS_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_MALLOC=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_MEM_OPS=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_MEM_OPS_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_PLATFORM=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_PRINTF=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_PRINTF_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_RAND=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_RUNTIME=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_STANDARD_LINK=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_STDIO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_STDIO_UART=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_STDLIB=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_SYNC=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_SYNC_CRITICAL_SECTION=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_SYNC_MUTEX=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_SYNC_SEM=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_TIME=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_UNIQUE_ID=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_UTIL=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_TINYUSB_DEVICE=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "MBEDTLS_CONFIG_FILE=\"mbedtls_config.h\""
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_BOARD=\"pico\""
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_BUILD=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_CMAKE_BUILD_TYPE=\"Release\""
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_COPY_TO_RAM=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_CXX_ENABLE_EXCEPTIONS=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_NO_FLASH=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_NO_HARDWARE=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_ON_DEVICE=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_RP2040_USB_DEVICE_UFRAME_FIX=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_USE_BLOCKED_RAM=0"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 9,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/TinyUSB_Gamepad/src"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/headers"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/CRC32/src"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/mbedtls/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/nanopb"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/build/lib/TinyUSB_Gamepad/proto"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_stdlib/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_gpio/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_base/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/build/generated/pico_base"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/boards/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_platform/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2040/hardware_regs/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_base/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2040/hardware_structs/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_claim/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_sync/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_irq/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_sync/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_time/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_timer/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_util/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_uart/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_resets/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_clocks/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_pll/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_vreg/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_watchdog/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_xosc/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_divider/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_runtime/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_printf/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_bit_ops/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_divider/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_double/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_float/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_malloc/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_bootrom/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_binary_info/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_stdio/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_int64_ops/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_mem_ops/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/boot_stage2/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_rand/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_unique_id/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_flash/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src/common"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/hw"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/rndis"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/lib/networking"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/lwip-port/."
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/lwip-port/arch"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/httpd/."
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				33,
+				34,
+				36,
+				39,
+				40,
+				44,
+				45,
+				47,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206,
+				207,
+				208,
+				209,
+				210,
+				211,
+				212,
+				213,
+				214,
+				215,
+				216,
+				217,
+				218,
+				219,
+				220,
+				221,
+				222,
+				223,
+				224,
+				225,
+				226,
+				227,
+				228,
+				229,
+				230,
+				231,
+				232,
+				233,
+				234,
+				235,
+				236,
+				237,
+				238,
+				239,
+				240,
+				241,
+				242,
+				243,
+				244,
+				245,
+				246,
+				247,
+				248,
+				249,
+				250,
+				251,
+				252,
+				253,
+				254,
+				255,
+				256,
+				257,
+				258
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-mcpu=cortex-m0plus -mthumb -O3 -DNDEBUG"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wtype-limits"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wno-format"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wno-unused-function"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-ffunction-sections"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "CFG_TUSB_MCU=OPT_MCU_RP2040"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "CFG_TUSB_OS=OPT_OS_PICO"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_BIT_OPS=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_BIT_OPS_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_DIVIDER=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_DIVIDER_HARDWARE=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_DOUBLE=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_DOUBLE_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_FIX_RP2040_USB_DEVICE_ENUMERATION=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_FLOAT=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_FLOAT_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_INT64_OPS=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_INT64_OPS_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_MALLOC=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_MEM_OPS=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_MEM_OPS_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_PLATFORM=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_PRINTF=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_PRINTF_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_RAND=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_RUNTIME=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_STANDARD_LINK=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_STDIO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_STDIO_UART=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_STDLIB=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_SYNC=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_SYNC_CRITICAL_SECTION=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_SYNC_MUTEX=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_SYNC_SEM=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_TIME=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_UNIQUE_ID=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_PICO_UTIL=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIB_TINYUSB_DEVICE=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "MBEDTLS_CONFIG_FILE=\"mbedtls_config.h\""
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_BOARD=\"pico\""
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_BUILD=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_CMAKE_BUILD_TYPE=\"Release\""
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_COPY_TO_RAM=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_CXX_ENABLE_EXCEPTIONS=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_NO_FLASH=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_NO_HARDWARE=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_ON_DEVICE=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_RP2040_USB_DEVICE_UFRAME_FIX=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_USE_BLOCKED_RAM=0"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 9,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/TinyUSB_Gamepad/src"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/headers"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/CRC32/src"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/mbedtls/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/nanopb"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/build/lib/TinyUSB_Gamepad/proto"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_stdlib/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_gpio/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_base/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/build/generated/pico_base"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/boards/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_platform/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2040/hardware_regs/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_base/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2040/hardware_structs/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_claim/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_sync/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_irq/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_sync/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_time/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_timer/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_util/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_uart/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_resets/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_clocks/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_pll/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_vreg/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_watchdog/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_xosc/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_divider/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_runtime/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_printf/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_bit_ops/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_divider/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_double/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_float/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_malloc/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_bootrom/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_binary_info/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_stdio/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_int64_ops/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_mem_ops/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/boot_stage2/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_rand/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_unique_id/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_flash/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src/common"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/hw"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/rndis"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/lib/networking"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/lwip-port/."
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/lwip-port/arch"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/lyan/pico/FightingBox/Sallybox/lib/httpd/."
+				}
+			],
+			"language" : "ASM",
+			"sourceIndexes" : 
+			[
+				15,
+				32,
+				35,
+				37,
+				38,
+				41,
+				42,
+				43,
+				46,
+				48,
+				49
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "bs2_default_padded_checksummed_asm::@bc554eaed616d198a22d"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "httpd::@66a540df5b9286c20480"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "lwip-port::@19096ee993ef70886882"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "rndis::@e9d3379e4504a7ec489c"
+		}
+	],
+	"id" : "TinyUSB_Gamepad::@32fcef9383777ead205a",
+	"name" : "TinyUSB_Gamepad",
+	"nameOnDisk" : "libTinyUSB_Gamepad.a",
+	"paths" : 
+	{
+		"build" : "lib/TinyUSB_Gamepad",
+		"source" : "lib/TinyUSB_Gamepad"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				33,
+				34,
+				36,
+				39,
+				40,
+				44,
+				45,
+				47,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206,
+				207,
+				208,
+				209,
+				210,
+				211,
+				212,
+				213,
+				214,
+				215,
+				216,
+				217,
+				218,
+				219,
+				220,
+				221,
+				222,
+				223,
+				224,
+				225,
+				226,
+				227,
+				228,
+				229,
+				230,
+				231,
+				232,
+				233,
+				234,
+				235,
+				236,
+				237,
+				238,
+				239,
+				240,
+				241,
+				242,
+				243,
+				244,
+				245,
+				246,
+				247,
+				248,
+				249,
+				250,
+				251,
+				252,
+				253,
+				254,
+				255,
+				256,
+				257,
+				258
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				6
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				7,
+				8
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				15,
+				32,
+				35,
+				37,
+				38,
+				41,
+				42,
+				43,
+				46,
+				48,
+				49
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/TinyUSB_Gamepad/src/hid_driver.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/TinyUSB_Gamepad/src/net_driver.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/TinyUSB_Gamepad/src/tusb_driver.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/TinyUSB_Gamepad/src/usb_descriptors.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/TinyUSB_Gamepad/src/xinput_driver.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/TinyUSB_Gamepad/src/ps4_driver.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/lib/TinyUSB_Gamepad/proto/enums.pb.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/lib/TinyUSB_Gamepad/proto/enums.pb.c.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/lib/TinyUSB_Gamepad/venv/environment.txt.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_platform/platform.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 2,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_sync/sem.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_sync/lock_core.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_sync/mutex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_sync/critical_section.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_time/time.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_time/timeout_helper.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_util/datetime.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_util/pheap.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/common/pico_util/queue.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 2,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_printf/printf.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 2,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 2,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_divider/divider.S",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 2,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_double/double_math.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 2,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 2,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 2,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_float/float_math.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 2,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 2,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 2,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_mbedtls/pico_mbedtls.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/aes.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/aesni.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/arc4.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/aria.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/asn1parse.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/asn1write.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/base64.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/bignum.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/blowfish.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/camellia.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/ccm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/chacha20.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/chachapoly.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/cipher.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/cipher_wrap.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/constant_time.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/cmac.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/ctr_drbg.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/des.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/dhm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/ecdh.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/ecdsa.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/ecjpake.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/ecp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/ecp_curves.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/entropy.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/entropy_poll.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/error.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/gcm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/havege.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/hkdf.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/hmac_drbg.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/md.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/md2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/md4.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/md5.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/memory_buffer_alloc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/mps_reader.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/mps_trace.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/nist_kw.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/oid.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/padlock.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/pem.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/pk.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/pk_wrap.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/pkcs12.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/pkcs5.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/pkparse.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/pkwrite.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/platform.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/platform_util.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/poly1305.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/psa_crypto.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/psa_crypto_aead.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/psa_crypto_cipher.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/psa_crypto_client.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/psa_crypto_driver_wrappers.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/psa_crypto_ecp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/psa_crypto_hash.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/psa_crypto_mac.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/psa_crypto_rsa.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/psa_crypto_se.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/psa_crypto_slot_management.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/psa_crypto_storage.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/psa_its_file.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/ripemd160.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/rsa.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/rsa_internal.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/sha1.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/sha256.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/sha512.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/threading.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/timing.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/version.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/version_features.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/xtea.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/certs.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/pkcs11.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/x509.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/x509_create.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/x509_crl.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/x509_crt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/x509_csr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/x509write_crt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/x509write_csr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/debug.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/net_sockets.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/ssl_cache.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/ssl_ciphersuites.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/ssl_cli.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/ssl_cookie.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/ssl_msg.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/ssl_srv.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/ssl_ticket.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/ssl_tls.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/mbedtls/library/ssl_tls13_keys.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_rand/rand.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src/device/usbd.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src/tusb.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/init.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/def.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/dns.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/ip.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/mem.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/memp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/netif.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/pbuf.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/raw.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/stats.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/sys.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/altcp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/tcp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/tcp_in.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/tcp_out.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/timeouts.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/udp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/api/api_lib.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/api/api_msg.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/api/err.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/api/if_api.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/api/netbuf.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/api/netdb.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/api/netifapi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/api/sockets.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/api/tcpip.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ethernet.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/slipif.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/zepif.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/lyan/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

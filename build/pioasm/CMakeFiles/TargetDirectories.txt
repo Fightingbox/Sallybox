@@ -1,0 +1,3 @@
+/Users/lyan/pico/FightingBox/Sallybox/build/pioasm/CMakeFiles/pioasm.dir
+/Users/lyan/pico/FightingBox/Sallybox/build/pioasm/CMakeFiles/edit_cache.dir
+/Users/lyan/pico/FightingBox/Sallybox/build/pioasm/CMakeFiles/rebuild_cache.dir

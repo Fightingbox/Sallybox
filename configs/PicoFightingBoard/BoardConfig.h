@@ -7,9 +7,7 @@
 #define PICO_BOARD_CONFIG_H_
 
 #include "enums.pb.h"
-
 #define BOARD_CONFIG_LABEL "Pico Fighting Board"
-
 // This is the main pin definition section.
 // This will let you specify which GPIO pin each button is assigned too.
 // You can set any of the main pins as `-1` to disable it.
@@ -18,26 +16,26 @@
 // Please note that only when `PIN_SLIDER_ONE` and  `PIN_SLIDER_TWO` are set to `-1` will the button combo shortcut for DP/LS/RS work.
 // The buttons are listed in GP2040 configuration, beside each the listed order is *GP2040 / Xinput / Switch / PS3 / Directinput / Arcade*
 
-#define PIN_DPAD_UP     1           // UP
-#define PIN_DPAD_DOWN   2           // DOWN
-#define PIN_DPAD_RIGHT  3           // RIGHT
-#define PIN_DPAD_LEFT   0           // LEFT
-#define PIN_BUTTON_B1   11          // B1 / A / B / Cross / 2 / K1
-#define PIN_BUTTON_B2   12          // B2 / B / A / Circle / 3 / K2
-#define PIN_BUTTON_R2   13          // R2 / RT / ZR / R2 / 8 / K3
-#define PIN_BUTTON_L2   14          // L2 / LT / ZL / L2 / 7 / K4
-#define PIN_BUTTON_B3   7           // B3 / X / Y / Square / 1 / P1
-#define PIN_BUTTON_B4   8           // B4 / Y / X / Triangle / 4 / P2
-#define PIN_BUTTON_R1   9           // R1 / RB / R / R1 / 6 / P3
-#define PIN_BUTTON_L1   10          // L1 / LB / L / L1 / 5 / P4
-#define PIN_BUTTON_S1   5           // S1 / Back / Minus / Select / 9 / Coin
-#define PIN_BUTTON_S2   6           // S2 / Start / Plus / Start / 10 / Start
-#define PIN_BUTTON_L3   21          // L3 / LS / LS / L3 / 11 / LS
-#define PIN_BUTTON_R3   22          // R3 / RS / RS / R3 / 12 / RS
-#define PIN_BUTTON_A1   4           // A1 / Guide / Home / PS / 13 / ~
-#define PIN_BUTTON_A2   20          // A2 / ~ / Capture / ~ / 14 / ~
+#define PIN_DPAD_UP     2           // UP
+#define PIN_DPAD_DOWN   3           // DOWN
+#define PIN_DPAD_RIGHT  4           // RIGHT
+#define PIN_DPAD_LEFT   5           // LEFT
+#define PIN_BUTTON_B1   6          // B1 / A / B / Cross / 2 / K1
+#define PIN_BUTTON_B2   7          // B2 / B / A / Circle / 3 / K2
+#define PIN_BUTTON_R2   8         // R2 / RT / ZR / R2 / 8 / K3
+#define PIN_BUTTON_L2   9          // L2 / LT / ZL / L2 / 7 / K4
+#define PIN_BUTTON_B3   10           // B3 / X / Y / Square / 1 / P1
+#define PIN_BUTTON_B4   11          // B4 / Y / X / Triangle / 4 / P2
+#define PIN_BUTTON_R1   12           // R1 / RB / R / R1 / 6 / P3
+#define PIN_BUTTON_L1   13          // L1 / LB / L / L1 / 5 / P4
+#define PIN_BUTTON_S1   16          // S1 / Back / Minus / Select / 9 / Coin
+#define PIN_BUTTON_S2   17         // S2 / Start / Plus / Start / 10 / Start
+#define PIN_BUTTON_L3   18          // L3 / LS / LS / L3 / 11 / LS
+#define PIN_BUTTON_R3   19          // R3 / RS / RS / R3 / 12 / RS
+#define PIN_BUTTON_A1   20          // A1 / Guide / Home / PS / 13 / ~
+#define PIN_BUTTON_A2   21          // A2 / ~ / Capture / ~ / 14 / ~
 #define PIN_BUTTON_FN   -1          // Hotkey Function
-#define PIN_BUTTON_TURBO -1         // Turbo
+#define PIN_BUTTON_TURBO 14         // Turbo
 #define PIN_BUTTON_REVERSE -1       // UDLR Reverse
 #define PIN_SLIDER_ONE    -1         // Left Stick Slider
 #define PIN_SLIDER_TWO    -1         // Right Stick Slider
@@ -87,32 +85,32 @@
 // Unless you are planning on running custom animations I would recommmend you leave this as is.
 
 #define TURBO_LED_PIN -1
-
-#define BOARD_LEDS_PIN 15
+#define TURBO_ENABLED 1
+#define BOARD_LEDS_PIN 28
 
 #define LED_BRIGHTNESS_MAXIMUM 150
 #define LED_BRIGHTNESS_STEPS 5
 #define LED_FORMAT LED_FORMAT_GRB
-#define LEDS_PER_PIXEL 2
+#define LEDS_PER_PIXEL 1
 
-#define LEDS_DPAD_LEFT   11
-#define LEDS_DPAD_DOWN   10
-#define LEDS_DPAD_RIGHT  9
-#define LEDS_DPAD_UP     0
-#define LEDS_BUTTON_B3   8
-#define LEDS_BUTTON_B4   7
+#define LEDS_DPAD_LEFT   0
+#define LEDS_DPAD_DOWN   1
+#define LEDS_DPAD_RIGHT  2
+#define LEDS_DPAD_UP     3
+#define LEDS_BUTTON_B3   4
+#define LEDS_BUTTON_B4   5
 #define LEDS_BUTTON_R1   6
-#define LEDS_BUTTON_L1   5
-#define LEDS_BUTTON_B1   1
-#define LEDS_BUTTON_B2   2
-#define LEDS_BUTTON_R2   3
-#define LEDS_BUTTON_L2   4
+#define LEDS_BUTTON_L1   7
+#define LEDS_BUTTON_B1   8
+#define LEDS_BUTTON_B2   9
+#define LEDS_BUTTON_R2   10
+#define LEDS_BUTTON_L2   11
 #define LEDS_BUTTON_S1   -1
 #define LEDS_BUTTON_S2   -1
 #define LEDS_BUTTON_L3   -1
 #define LEDS_BUTTON_R3   -1
 #define LEDS_BUTTON_A1   -1
-#define LEDS_BUTTON_A2   -1
+#define LEDS_BUTTON_A2   12
 
 
 // This is the Player LED section.
@@ -126,10 +124,10 @@
 // 3 - `PLED_TYPE_RGB` - This will enable the Player LEDs as addressible RGB LEDs (please not that this has not been implemented yet)
 
 #define PLED_TYPE PLED_TYPE_PWM
-#define PLED1_PIN 16
-#define PLED2_PIN 17
-#define PLED3_PIN 18
-#define PLED4_PIN 19
+#define PLED1_PIN -1
+#define PLED2_PIN -1
+#define PLED3_PIN -1
+#define PLED4_PIN -1
 
 
 // This is the Analog section.
@@ -194,9 +192,9 @@
 // Special note - All of the splash screen images can be changed via `include/bitmaps.h`
 
 #define HAS_I2C_DISPLAY 1
-#define I2C_SDA_PIN 26
-#define I2C_SCL_PIN 27
-#define I2C_BLOCK i2c1
+#define I2C_SDA_PIN 0   
+#define I2C_SCL_PIN 1
+#define I2C_BLOCK i2c0
 #define I2C_SPEED 400000
 #define DISPLAY_FLIP 0
 #define DISPLAY_INVERT 0
